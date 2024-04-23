@@ -6,7 +6,7 @@ export default function Home() {
       <Image width={400} height={400} src={'/home/my_photo.jpeg'} alt="foto mikael" className="opacity-80 rounded-[0.5rem] absolute left-[12%] top-[10%]"  style={{ boxShadow: "rgba(33, 101, 150, 0.8) -0.7rem 0.7rem 1px"}}></Image>
 
       <section className="absolute top-[10%] left-[39%]"> 
-        <h1 className="text-[5rem] font-bold font-lexend">
+        <h1 className="text-[5vw] font-bold font-lexend">
           I'm MIKAEL CAUA
           <br></br>
           brazilian Web
