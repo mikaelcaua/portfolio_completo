@@ -15,7 +15,7 @@ export default function Home() {
           Developer</h1>
 
           <div className="flex items-center justify-center p-4 w-[100%]">
-            <p className="text-justify font-laila text-[1.3vw] opacity-90 max-w-[85%]">I study Computer Science at UFMA andI study Computer Science at UFMA andI study Computer Science at UFMA andI study Computer Science at UFMA andI study Computer Science at UFMA andI study Computer Science at UFMA andI study Computer Science at UFMA andI study Computer Science at UFMA andI study Computer Science at UFMA andI study Computer Science at UFMA andI study Computer Science at UFMA andI study Computer Science at UFMA andI study Computer Science at UFMA andI study Computer Science at UFMA andI study Computer Science at UFMA and </p>
+            <p className="text-justify text-[1.3vw] opacity-90 max-w-[85%]">I study Computer Science at UFMA andI study Computer Science at UFMA andI study Computer Science at UFMA andI study Computer Science at UFMA andI study Computer Science at UFMA andI study Computer Science at UFMA andI study Computer Science at UFMA andI study Computer Science at UFMA andI study Computer Science at UFMA andI study Computer Science at UFMA andI study Computer Science at UFMA andI study Computer Science at UFMA andI study Computer Science at UFMA andI study Computer Science at UFMA andI study Computer Science at UFMA and </p>
           </div>
 
       </section>
