@@ -1,5 +1,6 @@
-import { Children, ReactElement } from "react";
+import { ReactElement } from "react";
 import Header from "../header";
+
 
 interface LayoutProps{
     children:ReactElement;

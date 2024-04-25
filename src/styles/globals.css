@@ -12,10 +12,9 @@
     --bg_color:black;
     --font_laila:"Laila", sans-serif;
     --font_lexend:"Lexend Deca", sans-serif;
-    --primary_color:rgb(26, 81, 120);
+    --primary_color:#8721e7a6;
 }
 
-#text{
-    display: flex;
-    flex-wrap: wrap;
+*{
+    box-sizing: border-box;
 }

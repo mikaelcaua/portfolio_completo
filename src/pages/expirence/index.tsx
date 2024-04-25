@@ -1,5 +1,4 @@
 import ExpirenceSection from "@/components/expirence_section"
-import Image from "next/image"
 
 export default function Expirence(){
     return(
