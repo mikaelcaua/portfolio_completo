@@ -14,7 +14,7 @@ const config: Config = {
         "primary_color":"var(--primary_color)"
       },
       fontFamily:{
-        "laila":"var(--font_laila)",
+        "marker":"var(--font_marker)",
         "lexend":"var(--font_lexend)"
       }
     },
