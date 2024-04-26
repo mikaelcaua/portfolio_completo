@@ -2,10 +2,10 @@ import ExpirenceSection from "@/components/expirence_section"
 
 export default function Expirence(){
     return(
-        <main className="min-h-[98vh] bg-bg_color flex flex-col gap-[1.5rem]">
+        <main className="min-h-[98vh] bg-bg_color flex flex-col">
             <img src="/expirence/receptionpet.jpg" alt="Mikael na recepção de calouros" className="w-[100%] max-h-[20rem]"/>
 
-            <ExpirenceSection title={"Jovem Tech"} src={"/expirence/logo/lacmor.png"} reverse={false}>
+            <ExpirenceSection title={"Jovem Tech"} src={"/expirence/logo/jovem_tech.png"} reverse={false}>
                 wdqwdqwdwqdsadasdasdasdasdsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdddddddddddddddddddddddddddddddddddddddddddddasdddddddddddddddddddddddddddddddsdddddddd
             </ExpirenceSection>
 
@@ -13,7 +13,7 @@ export default function Expirence(){
                 wdqwdqwdwqdsadasdasdasdasdsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdddddddddddddddddddddddddddddddddddddddddddddasdddddddddddddddddddddddddddddddsdddddddd
             </ExpirenceSection>
 
-            <ExpirenceSection title={"PetComp"} src={"/home/my_photo.jpeg"} reverse={false}>
+            <ExpirenceSection title={"PetComp"} src={"/expirence/logo/pet_comp.png"} reverse={false}>
                 wdqwdqwdwqdsadasdasdasdasdsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdddddddddddddddddddddddddddddddddddddddddddddasdddddddddddddddddddddddddddddddsdddddddd
             </ExpirenceSection>
 

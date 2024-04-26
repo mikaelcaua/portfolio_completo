@@ -1,22 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&family=Lexend+Deca:wght@100..900&family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&family=Lexend+Deca:wght@100..900&family=Lexend:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 
 
 :root{
 
-    --text_color:white;
-    --bg_color:black;
-    --font_marker:"Permanent Marker", cursive;
-    /* --font_lexend:"Lexend Deca", sans-serif; */
-    --font_lexend:"Lexend", sans-serif;
+    --text_color:rgba(255, 255, 255, 0.863);
+    --bg_color:#181823;
+    --font_outfit:"Outfit", sans-serif;
     --primary_color:#8721e7a6;
+    --secundary_color:#b790dbf6;
+    /* --secundary_color:#20b7e0; */
 }
 
 *{
     box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+    
 }

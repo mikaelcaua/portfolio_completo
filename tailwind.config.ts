@@ -11,10 +11,11 @@ const config: Config = {
       colors:{
         "bg_color":"var(--bg_color)",
         "text_color":"var(--text_color)",
-        "primary_color":"var(--primary_color)"
+        "primary_color":"var(--primary_color)",
+        "secundary_color":"var(--secundary_color)"
       },
       fontFamily:{
-        "marker":"var(--font_marker)",
+        "outfit":"var(--font_outfit)",
         "lexend":"var(--font_lexend)"
       }
     },
