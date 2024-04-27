@@ -12,7 +12,9 @@ const config: Config = {
         "bg_color":"var(--bg_color)",
         "text_color":"var(--text_color)",
         "primary_color":"var(--primary_color)",
-        "secundary_color":"var(--secundary_color)"
+        "secundary_color":"var(--secundary_color)",
+        "terciary_color":"var(--terciary_color)"
+
       },
       fontFamily:{
         "outfit":"var(--font_outfit)",
