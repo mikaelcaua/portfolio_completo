@@ -9,7 +9,7 @@ export default function Contact(){
             <div className="min-h-[98vh] flex bg-bg_color text-white w-[100%] text-[1.5rem] items-center justify-center
             gap-[5%]">
                 <section className="flex flex-col gap-[2rem]">
-                    <p className="break-words max-w-[50vw] text-text_color">
+                    <p className="break-words max-w-[90vw] md:max-w-[50vw] text-text_color">
                         dnioqwdnuqwndiqwdiqwndiqwndiqwndiqwndiwqnidnqwidqwidnddsadasdasdasdqwu9dhwquhdiuqwdiqwdiqwndinqwdinqwidnqwindqiwndiqwndwqndiqwdiqwndinqwidniqwdniqwndiqwnduqwbduqbwudbwqydbyqwdbwqbdqwbduqwbdqwdbiqwdiqwdbiqdbiuwqdubqwdbuqwbduqwbudqwbudqwbudbquwdbuq
                     </p>
                     <div className="flex flex-row items-center justify-center gap-[1rem]">
@@ -36,7 +36,7 @@ export default function Contact(){
                     </div>
                 </section >
             
-                <section className="flex flex-col items-center justify-center gap-[0.8rem]">
+                <section className="flex-col items-center justify-center gap-[0.8rem] hidden md:flex">
                     <h2 className="text-[2.2rem] font-outfit font-bold text-[#2F74C0]">TypeScript</h2>
                     <h2 className="text-[2.2rem] font-outfit font-bold text text-[#5ED3F3]">ReactJS</h2>
                     <h2 className="text-[2.2rem] font-outfit font-bold ">NextJS</h2>

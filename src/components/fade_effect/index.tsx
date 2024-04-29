@@ -9,7 +9,7 @@ export default function FadeEffect({children}:FadeTextProps){
     const props = useSpring({
         to:{opacity:1},
         from:{opacity:0},
-        delay:300,
+        delay:150,
         reset:true,
         reverse:false,
     })
