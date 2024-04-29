@@ -3,7 +3,7 @@ import FadeEffect from "@/components/fade_effect"
 
 export default function Expirence(){
 
-    const expirences = [
+    const experiences = [
         {'title':'Jovem Tech',
           'src':'/expirence/logo/jovem_tech.png',
           'reverse':false,
@@ -37,18 +37,19 @@ export default function Expirence(){
     
 
     return(
-        <main className="min-h-[98vh] bg-bg_color flex flex-col">
+        <main className="min-h-[98vh] bg-bg_color ">
             <FadeEffect>
-                <>
-                    <img src="/expirence/receptionpet.jpg" alt="Mikael na recepção de calouros" className="w-[100%] max-h-[20rem]"/>
+                <div className="flex flex-col">
+                    <img src="/expirence/receptionpet.jpg" alt="Mikael na recepção de calouros" className="w-[100%] h-[10rem] md:h-[6%]"/>
 
-                    {expirences.map(e => 
-                    <ExpirenceSection title={e.title} src={e.src} reverse={e.reverse}>
+                    {experiences.map(e => 
+                    <ExpirenceSection key={e.title} title={e.title} src={e.src} reverse={e.reverse}>
                         {e.text}
                     </ExpirenceSection>
                     )}
-                </>
+                </div>
             </FadeEffect>
         </main>
     )
 }
+

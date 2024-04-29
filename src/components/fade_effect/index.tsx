@@ -1,8 +1,8 @@
-import { ReactElement } from "react"
+import { ReactNode } from "react"
 import { animated, useSpring } from "react-spring"
 
 interface FadeTextProps{
-    children:ReactElement|string
+    children:ReactNode|string
 }
 
 export default function FadeEffect({children}:FadeTextProps){
