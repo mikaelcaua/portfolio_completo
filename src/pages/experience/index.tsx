@@ -1,5 +1,6 @@
 import ExpirenceSection from "@/components/expirence_section"
 import FadeEffect from "@/components/fade_effect"
+import Image from "next/image"
 
 export default function Expirence(){
 
@@ -40,7 +41,7 @@ export default function Expirence(){
         <main className="min-h-[98vh] bg-bg_color ">
             <FadeEffect>
                 <div className="flex flex-col">
-                    <img src="/expirence/receptionpet.jpg" alt="Mikael na recepção de calouros" className="w-[100%] h-[7rem] md:h-[6%]"/>
+                    <Image src={'/expirence/receptionpet.jpg'} width={250} height={250} alt={'Mikael na recepção de calouros'} className="w-[100%] h-[7rem] md:h-[6%]" unoptimized></Image>
 
                     {experiences.map(e => 
                     <ExpirenceSection key={e.title} title={e.title} src={e.src} reverse={e.reverse}>
