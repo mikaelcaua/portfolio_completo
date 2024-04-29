@@ -6,7 +6,7 @@ export default function Home() {
   const words = ['Web', 'Developer']
   return (
     
-    <main className="bg-bg_color pt-[2%]">
+    <main className="bg-bg_color pt-[2%] min-h-[90vh]">
         <FadeEffect>
           <div className="text-text_color flex flex-col justify-center items-center pr-[5%] pl-[5%] gap-[2rem] pb-[4%]">
             <section className="flex justify-center items-center gap-[5%]">
