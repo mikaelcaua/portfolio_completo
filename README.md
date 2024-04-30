@@ -19,7 +19,7 @@ Você pode visualizar o portfólio online [aqui](https://portfolio-git-main-mika
 ### 1. Clone este repositório:
 
 ```bash
-npm run dev
+git clone https://github.com/mikaelcaua/portfolio_completo.git
 ```
 
 ### 2. Instale as dependências:
