@@ -31,7 +31,7 @@ export default function Expirence(){
 
         {'title':'Maratonas de Programação',
         'src':'/expirence/logo/maratona.jpg',
-        'reverse':true,
+        'reverse':false,
         'text':'Participar de competições de programação é um hobby que me interessa porque me permite enfrentar desafios com algoritmos complexos e trabalhosos. No momento, estou me preparando para o próximo desafio: a Maratona de Programação da SBC em 2024.'
         }
     ]
