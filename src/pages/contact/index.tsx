@@ -9,26 +9,26 @@ export default function Contact(){
             <div className="min-h-[98vh] flex flex-col md:flex-row bg-bg_color text-white w-[100%] text-[1.5rem] items-center justify-center gap-[5rem] md:gap-[5%]">
                 <section className="flex flex-col gap-[5rem] md:gap-[2rem]">
                     <p className="break-words max-w-[90vw] md:max-w-[50vw] text-text_color text-[1rem] md:text-[1.5rem] text-justify">
-                        Contate-me para serviços de desenvolvimento e manutenção de suas aplicações web e mobile, assim como fornecer suporte para manter seus sistemas computacionais em pleno funcionamento. E se você deseja aprender programação ou aprimorar suas habilidades, estou aqui para te guiar nessa jornada. Meu compromisso é oferecer soluções eficientes e educativas, adaptadas às suas necessidades específicas.
+                        Contate-me para serviços de desenvolvimento e manutenção de suas aplicações web e mobile, suporte técnico e montagem de computadores, e se você deseja aprender programação ou aprimorar suas habilidades, estou aqui para te guiar nessa jornada. Meu compromisso é oferecer soluções eficientes e educativas, adaptadas às suas necessidades específicas.
                     </p>
                     <div className="flex flex-row items-center justify-center gap-[1rem]">
-                        <Link target="_blank" href="https://www.linkedin.com/in/mikael-cau%C3%A3-silva/">
+                        <Link target="_blank" href="https://www.linkedin.com/in/mikael-cau%C3%A3-silva/" className="p-1 hover:bg-blue-600 transition duration-300 rounded-[0.7rem]">
                             <Image width={32} height={32}  alt="linkedin logo" src={"/contact/linkedin.svg"}></Image>
                         </Link>
 
-                        <Link target="_blank" href="https://www.instagram.com/mik4ellll">
+                        <Link target="_blank" href="https://www.instagram.com/mik4ellll" className="p-1 hover:bg-[#dc0f94] transition duration-300 rounded-[0.7rem]">
                             <Image width={32} height={32}  alt="instagram logo" src={"/contact/instagram.svg"}></Image>
                         </Link>
 
-                        <Link target="_blank" href="https://wa.me/5598988309055">
+                        <Link target="_blank" href="https://wa.me/5598988309055" className="p-1 hover:bg-green-600 transition duration-300 rounded-[0.7rem]">
                             <Image width={32} height={32}  alt="whatsapp logo" src={"/contact/whatsapp.svg"}></Image>
                         </Link>
 
-                        <Link target="_blank" href="https://github.com/mikaelcaua">
+                        <Link target="_blank" href="https://github.com/mikaelcaua" className="p-1 hover:bg-black transition duration-300 rounded-[0.7rem]">
                             <Image width={32} height={32}  alt="github logo" src={"/contact/github.svg"}></Image>
                         </Link>
 
-                        <Link target="_blank" href="https://www.youtube.com/@mikael_caua">
+                        <Link target="_blank" href="https://www.youtube.com/@mikael_caua" className="p-1 hover:bg-red-600 transition duration-300 rounded-[0.7rem]">
                             <Image width={32} height={32}  alt="youtube logo" src={"/contact/youtube.svg"}></Image>
                         </Link>
 

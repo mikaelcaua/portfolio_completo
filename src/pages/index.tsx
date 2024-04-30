@@ -12,7 +12,7 @@ export default function Home() {
             <section className="flex justify-center items-center gap-[5%]">
 
               <div className="flex relative">
-                <Image width={250} height={200} src={'/home/my_photo.jpeg'} alt="foto mikael" className="opacity-70 rounded-[2rem] w-[25vw] hidden md:block"  style={{ boxShadow: "#20b7e0 -0.8rem 1rem 1px"}} unoptimized></Image>
+                <Image width={250} height={200} src={'/home/my_photo.jpeg'} alt="foto mikael" className="opacity-80 rounded-[2rem] w-[25vw] hidden md:block"  style={{ boxShadow: "#20b7e0 -0.8rem 1rem 1px"}} unoptimized></Image>
                 
               </div>
 
