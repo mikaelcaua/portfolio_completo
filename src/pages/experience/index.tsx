@@ -26,7 +26,7 @@ export default function Expirence(){
         {'title':'Monitorias',
           'src':'/expirence/logo/ufma.png',
           'reverse':true,
-          'text':"Fui responsável realizar monitorias em disciplinas fundamentais como Cálculo 1, Matemática Discreta e Lógica... onde pude compartilhar meu conhecimento e auxiliar outros estudantes em sua jornada acadêmica. Atualmente, sou encarregado de ministrar a monitoria da disciplina de Estrutura de Dados 1 na UFMA"
+          'text':"Fui responsável por realizar monitorias em disciplinas fundamentais como Cálculo 1, Matemática Discreta e Lógica... onde pude compartilhar meu conhecimento e auxiliar outros estudantes em sua jornada acadêmica. Atualmente, sou encarregado de ministrar a monitoria da disciplina de Estrutura de Dados 1 na UFMA"
         },
 
         {'title':'Maratonas de Programação',
