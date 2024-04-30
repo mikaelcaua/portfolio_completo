@@ -28,7 +28,7 @@ export default function Home() {
             </section>
 
 
-            <p className="text-justify text-[1rem] md:text-[1.3vw] opacity-90 md:max-w-[80%]">Meu nome é Mikael Cauã, estou cursando Ciência da Computação na UFMA e sou apaixonado por matemática e algoritmos. Atuo como desenvolvedor web, com foco especial no uso de Next e Java Spring Boot. Além disso, trabalho como professor auxiliar e monitor em disciplinas relacionadas à programação.
+            <p className="text-justify text-[1rem] md:text-[1.5rem] opacity-90 md:max-w-[80%]">Meu nome é Mikael Cauã, estou cursando Ciência da Computação na UFMA e sou apaixonado por matemática e algoritmos. Atuo como desenvolvedor web, com foco especial no uso de Next e Java Spring Boot. Além disso, trabalho como professor auxiliar e monitor em disciplinas relacionadas à programação.
             </p>
           </div>
         </FadeEffect>
