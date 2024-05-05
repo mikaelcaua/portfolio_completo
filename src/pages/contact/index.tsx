@@ -1,10 +1,22 @@
 import FadeEffect from "@/components/fade_effect"
 import Image from "next/image"
 import Link from "next/link"
+import { useRouter } from "next/router";
+import { useSwipeable } from 'react-swipeable';
 
 export default function Contact(){
+    const router = useRouter();
+
+    const handlers = useSwipeable({
+      onSwiped: (eventData) => {
+        if (eventData.dir === 'Right') {
+          router.push('/experience');
+        }
+      }
+    });
+
     return(
-        <main className="min-h-[98vh] bg-bg_color">
+        <main className="min-h-[98vh] bg-bg_color" {...handlers}>
         <FadeEffect>
             <div className="min-h-[98vh] flex flex-col md:flex-row bg-bg_color text-white w-[100%] text-[1.5rem] items-center justify-center gap-[5rem] md:gap-[5%]">
                 <section className="flex flex-col gap-[5rem] md:gap-[2rem]">

@@ -13,7 +13,8 @@
     "react": "^18",
     "react-dom": "^18",
     "react-simple-typewriter": "^5.0.1",
-    "react-spring": "^9.7.3"
+    "react-spring": "^9.7.3",
+    "react-swipeable": "^7.0.1"
   },
   "devDependencies": {
     "@types/node": "^20",
