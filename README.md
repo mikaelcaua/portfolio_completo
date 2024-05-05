@@ -27,6 +27,7 @@ git clone https://github.com/mikaelcaua/portfolio_completo.git
 npm install
 npm install react-spring
 npm install react-simple-typewriter
+npm install react-swipeable
 ```
 
 ### 3. Execute o projeto localmente:
