@@ -21,7 +21,7 @@ export default function Home() {
         <FadeEffect>
           <div className="text-text_color flex flex-col justify-center items-center pr-[5%] pl-[5%] gap-[2rem] pb-[4%]">
             <section className="flex flex-col-reverse md:flex-row justify-center items-center gap-[5%]">
-
+              
               <div className="flex relative">
                 <Image width={300} height={300} src={'/home/my_photo.jpeg'} alt="foto mikael" className="opacity-80 rounded-[2rem] md:w-[25vw] md:block"  style={{ boxShadow: "#20b7e0 -0.8rem 1rem 1px"}} unoptimized></Image>
                 
