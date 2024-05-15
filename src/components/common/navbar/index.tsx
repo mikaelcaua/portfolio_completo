@@ -16,7 +16,7 @@ export default function NavBar(){
     return(
         <nav className={navStyle}>
             <Link href={'./'} className={`${linkStyle} ${isLinkActive('/')}`}>
-                About me
+                Home
             </Link>
 
             <Link href={'./experience'} className={`${linkStyle} ${isLinkActive('/experience')}`}>
