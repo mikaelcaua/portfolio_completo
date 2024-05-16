@@ -50,7 +50,7 @@ export default function Contact(){
                 <section className="flex flex-row md:flex-col items-center justify-center gap-[0.8rem]">
                     <h2 className="text-[0.9rem] md:text-[2.2rem] font-outfit font-bold text-[#2F74C0]">TypeScript</h2>
                     <h2 className="text-[0.9rem] md:text-[2.2rem] font-outfit font-bold text text-[#5ED3F3]">ReactJS</h2>
-                    <h2 className="text-[0.9rem] md:text-[2.2rem] font-outfit font-bold ">NextJS</h2>
+                    <h2 className="text-[0.9rem] md:text-[2.2rem] font-outfit font-bold ">Python</h2>
                     <h2 className="text-[0.9rem] md:text-[2.2rem] font-outfit font-bold text-[#d6472e]">Java</h2>
                     <h2 className="text-[0.9rem] md:text-[2.2rem] font-outfit font-bold text-[#6aad3d]">SpringBoot</h2>
                 </section>
