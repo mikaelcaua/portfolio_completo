@@ -25,12 +25,6 @@ export default function Expirence(){
           'reverse':false,
           'text':'Atualmente faço parte do Programa Jovem Tech, uma iniciativa importante em São Luís do Maranhão com o objetivo de capacitar jovens de escolas públicas nas áreas de desenvolvimento web e análise de dados. Tendo como foco preparar diversos jovens para enfrentar os desafios do mundo digital e contribuir para o crescimento econômico e social do Maranhão.'
         },
-        
-        {'title':'Laboratório',
-          'src':'/expirence/logo/lacmor.png',
-          'reverse':true,
-          'text':'O Laboratório de Aprendizagem Computacional, Métodos de Otimização e Robótica (LACMOR), sob a coordenação do Professor Alexandre, é um espaço dinâmico e tecnológico. Como pesquisador neste laboratório, tive o privilégio de mergulhar em projetos inovadores que combinam inteligência artificial, otimização e robótica.'
-        },
 
         {'title':'PetComp',
           'src':'/expirence/logo/pet_comp.png',
