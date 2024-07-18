@@ -16,11 +16,11 @@ export default function NavBar(){
     return(
         <nav className={navStyle}>
             <Link href={'./'} className={`${linkStyle} ${isLinkActive('/')}`}>
-                Home
+                About Me
             </Link>
 
-            <Link href={'./experience'} className={`${linkStyle} ${isLinkActive('/experience')}`}>
-                Experience
+            <Link href={'./work'} className={`${linkStyle} ${isLinkActive('/work')}`}>
+                Works
             </Link>
 
             <Link href={'./contact'} className={`${linkStyle} ${isLinkActive('/contact')}`}>

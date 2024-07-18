@@ -14,7 +14,7 @@ export default function DigitationText({wordsVector}:DigitationTextProps){
     })
     return(
         <>
-            <p>
+            <p className="w-[10vw]">
                 {text}<span className="text-terciary_color"><Cursor cursorStyle='|'/></span>
             </p>
         </>

@@ -13,7 +13,8 @@ const config: Config = {
         "text_color":"var(--text_color)",
         "primary_color":"var(--primary_color)",
         "secundary_color":"var(--secundary_color)",
-        "terciary_color":"var(--terciary_color)"
+        "terciary_color":"var(--terciary_color)",
+        "button_color":"var(--button_color)"
 
       },
       fontFamily:{

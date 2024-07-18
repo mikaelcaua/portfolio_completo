@@ -6,7 +6,7 @@ Este é o repositório do meu portfólio completo, desenvolvido utilizando Next.
 
 Este portfólio foi criado para mostrar meus projetos, habilidades e experiência em desenvolvimento web.
 
-Você pode visualizar o portfólio online [aqui](https://portfolio-git-main-mikaelcauas-projects.vercel.app/).
+Você pode visualizar o portfólio online [aqui](https://portfolio-mikaelcauas-projects.vercel.app/).
 
 ## Tecnologias Utilizadas
 

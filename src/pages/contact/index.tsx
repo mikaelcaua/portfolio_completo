@@ -10,18 +10,20 @@ export default function Contact(){
     const handlers = useSwipeable({
       onSwiped: (eventData) => {
         if (eventData.dir === 'Right') {
-          router.push('/experience');
+          router.push('/work');
         }
       }
     });
+
+    
 
     return(
         <main className="min-h-[98vh] bg-bg_color" {...handlers}>
         <FadeEffect>
             <div className="min-h-[98vh] flex flex-col md:flex-row bg-bg_color text-white w-[100%] text-[1.5rem] items-center justify-center gap-[5rem] md:gap-[5%]">
                 <section className="flex flex-col gap-[5rem] md:gap-[2rem]">
-                    <p className="break-words max-w-[90vw] md:max-w-[50vw] text-text_color text-[1rem] md:text-[1.5rem] text-justify">
-                        Contate-me para serviços de desenvolvimento e manutenção de suas aplicações web e mobile, suporte técnico e montagem de computadores, e se você deseja aprender programação ou aprimorar suas habilidades, estou aqui para te guiar nessa jornada. Meu compromisso é oferecer soluções eficientes e educativas, adaptadas às suas necessidades específicas.
+                    <p className="break-words max-w-[90vw] md:max-w-[50vw] text-text_color text-[1rem] md:text-[1.5rem] text-left">
+                        Contact me for development and maintenance services for your web and mobile applications. If you want to learn programming or improve your skills, I am here to guide you on this journey. My commitment is to offer efficient and educational solutions, tailored to your specific needs.
                     </p>
                     <div className="flex flex-row items-center justify-center gap-[1rem]">
                         <Link target="_blank" href="https://www.linkedin.com/in/mikael-cau%C3%A3-silva/" className="p-1 hover:bg-blue-600 transition duration-300 rounded-[0.7rem]">
